@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAFraDbyGpp1nj9qa47PmzqyPY9vvJTYbg",
-    authDomain: "utp-distribuido.firebaseapp.com",
-    databaseURL: "https://utp-distribuido.firebaseio.com",
-    projectId: "utp-distribuido",
-    storageBucket: "utp-distribuido.appspot.com",
-    messagingSenderId: "964241842399",
-    appId: "1:964241842399:web:746d30eef7f031765e896a"
+    apiKey: "---",
+    authDomain: "---",
+    databaseURL: "---",
+    projectId: "--",
+    storageBucket: "--",
+    messagingSenderId: "---",
+    appId: "---"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
