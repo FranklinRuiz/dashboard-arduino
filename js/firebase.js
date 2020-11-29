@@ -27,12 +27,13 @@ nameRef.on('value', function (snapshot) {
         } else {
             dia++;
             data.push({ date: new Date(2020, 0, dia), value: element.valor });
+            reloadAire();
         }
         console.log(data);
     }
 
-    data.push({ date: data[data.length - 1].date, value: data[data.length - 1].value, disabled: false })
+    //data.push({ date: data[data.length - 1].date, value: data[data.length - 1].value, disabled: false })
 
 
-    reloadAire();
+  
 });
